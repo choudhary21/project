@@ -39,6 +39,10 @@
     transform: scale(.97);
 }
 
+.nav-icon{
+    display: none;
+}
+
 .footer{
     height: 320px;
     background-color: #3b3b3b;
@@ -140,6 +144,9 @@
     }
     .nav-left > img{
         height: 20px;
+    }
+    .nav-icon{
+        display: block;
     }
 }
 
