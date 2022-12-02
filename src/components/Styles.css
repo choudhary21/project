@@ -123,6 +123,24 @@
     .input{
         margin-top: 15%;
     }
+    .header{
+        height: 50px;
+    }
+    .nav-right{
+        display: none;
+    }
+    .footer-right > button{
+        left: -3px;
+        top: 18px;
+        padding: 5px 90px;
+        margin-bottom: 20px;
+    }
+    .nav-left > p{
+        font-size: small;
+    }
+    .nav-left > img{
+        height: 20px;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -136,11 +154,6 @@
         height: 40px;
         width: 250px;
     }
-    .footer-right > button{
-        left: -3px;
-        top: 18px;
-        padding: 5px 90px;
-        margin-bottom: 20px;
-    }
+    
 }
 

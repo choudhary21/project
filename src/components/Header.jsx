@@ -12,11 +12,15 @@ export const Header = () => {
         />
         <p>NFT Marketplace</p>
       </div>
+      {/* keep this nav-right class to display none for mid & small screen */}
       <div className="nav-right">
         <h6 >Marketplace</h6>
         <h6>Rankings</h6>
         <h6>Connect a wallet</h6>
         <button><i class="bi bi-person"></i>{" "}{" "}{" "}{" "}<strong>sign up</strong></button>
+      </div>
+      <div className="nav-icon">
+        <i class="bi bi-text-right"></i> 
       </div>
     </div>
   );
